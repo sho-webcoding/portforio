@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: black;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.wrapper .heading {
+  font-size: 60px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .wrapper .heading {
+    margin-bottom: 40px;
+  }
+}
+
+header {
+  height: 140px;
+  margin-top: 50px;
+}
+header nav {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 60%;
+}
+@media screen and (max-width: 1030px) {
+  header nav {
+    margin-left: 50%;
+  }
+}
+header nav a {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+main section {
+  margin-bottom: 160px;
+}
+main section .btn {
+  display: block;
+  padding: 25px 140px;
+  border: 2px solid black;
+  border-radius: 70px;
+  margin: 0 auto;
+}
+main #mainvisual {
+  height: calc(100vh - 90px);
+  margin-bottom: 110px;
+}
+main #mainvisual h1 {
+  font-size: 85px;
+  line-height: 140px;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.36em;
+}
+main #introduction {
+  text-align: center;
+}
+main #introduction p {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 180%;
+}
+@media screen and (max-width: 500px) {
+  main #introduction p {
+    text-align: left;
+  }
+}
+main #service h2 {
+  font-size: 60px;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  main #service h2 {
+    font-size: 30px;
+  }
+}
+main #service ul {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 500px) {
+  main #service ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+main #service ul li {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border: 4px solid black;
+  border-radius: 32px;
+}
+@media screen and (max-width: 500px) {
+  main #service ul li {
+    margin-bottom: 55px;
+  }
+}
+main #service ul li h3 {
+  font-size: 25px;
+  position: absolute;
+  top: 180px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  main #service ul li h3 {
+    font-size: 20px;
+  }
+}
+main #service ul li p {
+  position: absolute;
+  top: 240px;
+  padding-left: 18px;
+  padding-right: 18px;
+  line-height: 29px;
+}
+main #service ul .html-css .pictures {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 60px auto 0 auto;
+}
+main #service ul .html-css .pictures img {
+  width: 75px;
+  height: 75px;
+}
+main #service ul .jquery img {
+  height: 50px;
+  margin: 70px auto 0 auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #service ul .design img {
+  width: 65px;
+  margin: 45px auto 0 auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #works ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 125px;
+}
+main #works ul li {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+main #works ul li img {
+  width: 100%;
+  height: 250px;
+  border: 4px solid black;
+  border-radius: 32px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #about .flex {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  height: 290px;
+  margin: 0 auto 125px auto;
+}
+main #about .flex img {
+  width: 290px;
+  height: 290px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 4px solid black;
+  border-radius: 32px;
+}
+main #about .flex p {
+  width: 290px;
+  line-height: 29px;
+}
+main #contact {
+  text-align: center;
+}
+main #contact p {
+  margin-bottom: 60px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
