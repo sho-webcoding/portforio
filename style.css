@@ -97,12 +97,15 @@ main section {
     margin-bottom: 80px;
   }
 }
+main section button {
+  margin: 0 auto;
+  display: block;
+}
 main section .btn {
   display: block;
   padding: 25px 140px;
   border: 2px solid black;
   border-radius: 70px;
-  margin: 0 auto;
   transition: 0.2s;
 }
 main section .btn:hover {
